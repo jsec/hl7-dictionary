@@ -9,12 +9,12 @@
     "email": "fernandojsg@gmail.com",
     "url": "https://github.com/fernandojsg"
   },
-  "dependencies": {},
   "devDependencies": {
     "browserify": "^11.0.1",
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.4.0",
+    "typescript": "^5.0.3",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
