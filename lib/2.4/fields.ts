@@ -1,4 +1,6 @@
-var fields = {
+import { DataTypeDefinition } from "../definitions";
+
+var fields: DataTypeDefinition = {
     "AD": {
         "desc": "Address",
         "subfields": [
