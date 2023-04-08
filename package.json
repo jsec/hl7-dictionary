@@ -10,6 +10,7 @@
     "url": "https://github.com/fernandojsg"
   },
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "browserify": "^11.0.1",
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
@@ -18,7 +19,9 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
-  "scripts": {},
+  "scripts": {
+      "build": "tsc --build tsconfig.build.json --verbose"
+  },
   "keywords": [
     "hl7",
     "healthcare"
