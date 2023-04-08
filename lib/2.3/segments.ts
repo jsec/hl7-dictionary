@@ -1,4 +1,6 @@
-var segments = {
+import { SegmentDefinition } from "../definitions";
+
+var segments: SegmentDefinition = {
     "ACC": {
         "desc": "Accident",
         "fields": [

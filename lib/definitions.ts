@@ -13,3 +13,10 @@ export interface DataTypeStructure {
 }
 
 export type DataTypeDefinition = Record<string, DataTypeStructure>;
+
+export interface SegmentStructure {
+    desc: string
+    fields: FieldDefinition[]
+}
+
+export type SegmentDefinition = Record<string, SegmentStructure>;
